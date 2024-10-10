@@ -1,0 +1,138 @@
+/* .customer-page {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+  }
+  
+  .nav-right button {
+    margin-left: 15px;
+    background-color: #f44336;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav-right button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .account-details {
+    margin-top: 30px;
+  }
+  
+  .account-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+   */
+
+
+
+
+   /* CustomerPage.css */
+
+body {
+    background-color:white; /* Dark background */
+    color: black; /* Light text */
+    font-family: Arial, sans-serif;
+  }
+  
+  .customer-page {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: powderblue; /* Purple background */
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-email {
+    font-size: 16px;
+    color: black; /* Lighter text for email */
+  }
+  
+  .navbar-actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-profile, .navbar-logout , .navbar-transactions{
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .navbar-profile:hover, .navbar-logout:hover, .navbar-transactions:hover{
+    color: #ffeb3b; /* Change color on hover */
+  }
+  
+  .customer-content {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+
+  /* Add this to CustomerPage.css */
+
+.other-container{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  
+  
+}
+
+.account-details-box{
+    background-color:powderblue; /* Background color for the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Centering the box */
+    border: 1px solid black; /* Purple border */
+    border-radius: 10px; /* Rounded corners */
+    width: 80%; /* Width of the box */
+    max-width: 500px; /* Maximum width to prevent it from being too wide */
+    text-align: center; /* Centering text inside the box */
+  }
+  
+  .send-money-container,.loans-container,.services-container,.send-money-other-banks-container{
+    background-color:powderblue; /* Background color for the box */
+    padding: 20px; /* Space inside the box */
+    margin: 20px auto; /* Centering the box */
+    border: 1px solid black; /* Purple border */
+    border-radius: 10px; /* Rounded corners */
+    width:20%; /* Width of the box */
+    max-width: 500px; /* Maximum width to prevent it from being too wide */
+    text-align: center; /* Centering text inside the box */
+  }
+  .balance-box {
+    color:red; /* Lighter text for visibility */
+  }
+
+  .view-balance-button{
+    background-color:green;
+  }
+  
+
+  
+  
